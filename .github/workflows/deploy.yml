@@ -33,7 +33,7 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "fortranpeg-olc2/build/"
+          path: "fortranpeg-olc2/dist/"
 
   deploy:
     needs: build_site
