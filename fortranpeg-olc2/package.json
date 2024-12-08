@@ -27,6 +27,7 @@
     "vite": "^6.0.0"
   },
   "dependencies": {
+    "@codemirror/theme-one-dark": "^6.1.2",
     "svelte-codemirror-editor": "^1.4.1"
   }
 }
